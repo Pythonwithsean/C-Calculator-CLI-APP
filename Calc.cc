@@ -37,7 +37,7 @@ int main()
 	}
 	else
 	{
-		throw std::invalid_argument("received negative value");
+		throw std::invalid_argument("Invalid Operator");
 	}
 	switch (oper)
 	{
@@ -54,7 +54,7 @@ int main()
 		printf("%d\n", x / y);
 		break;
 	default:
-		throw std::invalid_argument("received negative value");
+		throw std::invalid_argument("Invalid Operator");
 	}
 
 	return 0;
